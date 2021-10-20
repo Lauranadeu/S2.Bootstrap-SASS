@@ -11989,4 +11989,34 @@ section h1, section .h1 {
   background-color: #5265E1;
   border-color: #5265E1;
 }
+
+h3, .h3 {
+  text-align: center;
+}
+
+#textfeatures {
+  text-align: center;
+}
+
+#componenttabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+#componenttabs .nav-item {
+  padding: 20px;
+}
+
+#contenidor2 {
+  padding-top: 40px;
+}
+
+#oneclick {
+  padding-top: 40px;
+}
 /*# sourceMappingURL=custom.css.map */

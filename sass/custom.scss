@@ -17,7 +17,7 @@
 
     h1 {
         padding-top: 40px;
-        padding-bottom: 10px;
+        padding-bottom: 10px;      
     }
    
   }
@@ -34,4 +34,29 @@
     border-color: #5265E1;
   }
 
+h3 {
+    text-align: center;
+}
 
+#textfeatures {
+    text-align: center;
+
+}
+
+#componenttabs {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+    .nav-item {
+        padding: 20px;
+    }
+}
+
+#contenidor2 {
+    padding-top: 40px;
+}
+
+#oneclick {
+    padding-top: 40px;
+}
