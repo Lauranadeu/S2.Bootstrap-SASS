@@ -29,7 +29,7 @@
   --bs-gray-900: #212529;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
-  --bs-success: #165f3d;
+  --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -11955,5 +11955,38 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #FA5959;
+  border-color: #FA5959;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #FA5959;
+  border-color: #FA5959;
+}
+
+section {
+  padding-top: 70px;
+}
+
+section h1, section .h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5265E1;
+  border-color: #5265E1;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #5265E1;
+  border-color: #5265E1;
 }
 /*# sourceMappingURL=custom.css.map */
