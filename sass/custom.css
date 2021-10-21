@@ -12037,4 +12037,9 @@ h3, .h3 {
   border: solid .5px grey;
   height: 250px;
 }
+
+#install {
+  font-size: 11px;
+  width: 100%;
+}
 /*# sourceMappingURL=custom.css.map */

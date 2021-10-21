@@ -13,13 +13,45 @@
 
 </head>
 <body>
+
+  
+<div class="container-fluid pe-5 mt-4">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container d-flex justify-content-start">
+      <a class="navbar-brand" href="#">
+        <img src="Imagenes/logo-bookmark.svg" class="imatgelogo d-flex justify-content-start " alt="">
+      </a>
+    </div>
+    <div class="container-fluid d-flex justify-content-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">CONTACT</a>
+          </li>
+        </ul>
+        <button class="btn btn-success me-2 pe-4 ps-4" type="button">LOGIN</button>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  
     <div class="container-fluid">
         <nav class="navbar navbar-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="Imagenes/logo-bookmark.svg" alt="">
               </a>
-              <div class="login">
+              <div class="login d-flex">
                 <button class="btn success me-2" type="button">FEATURES</button>
                 <button class="btn success me-2" type="button">PRICING</button>
                 <button class="btn success me-2" type="button">CONTACT</button>
@@ -32,14 +64,18 @@
               <div class="row">
                 <div class="col-12 order-lg-first col-lg-6">
                   <div class="container">
+                    <div class="container">
                     <h1 class="text-center text-lg-start">A Simple Bookmark <br> Manager</h1>
                     <p class="text-center text-lg-start">A clean and simple interface to organize your fauvourtie websites. Open a new browser tab and see your sites load instantly. Try it for free</p>
-                    <button type="button" class="btn btn-primary shadow">Get it on Chrome</button>
+                  </div>
+                  <div class="container d-flex justify-content-center justify-content-lg-start">
+                    <button type="button" class="btn btn-primary shadow me-2">Get it on Chrome</button>
                     <button type="button" class="btn btn-light shadow">Get it on Firefox</button>
+                  </div>
                   </div>  
                 </div>
                 <div class="col-12 col-lg-6 order-first">
-                  <div class="container-fluid fondo">
+                  <div class="container-fluid fondo d-flex justify-content-center justify-content-lg-end">
                     <img src="imagenes/illustration-hero.svg" class="img-fluid" alt="" width="500px">
                   </div>    
                 </div>
@@ -80,16 +116,22 @@
           <div class="container" id="contenidor2">
             <div class="row">
               <div class="col-12 col-lg-6 order-first">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex justify-content-center justify-content-lg-start">
                   <img src="imagenes/illustration-features-tab-1.svg" class="img-fluid" alt="" width="500px">
                 </div>    
               </div>
 
               <div class="col-12 order-lg-first col-lg-6">
                 <div class="container" id="oneclick">
-                  <h2 class="click text-sm-center text-lg-start">Bookmark in one click</h2>
-                  <p class="click text-sm-center text-lg-start">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                  <div class="container">
+                    
+                  </div>
+                  <h2 class="click text-center text-lg-start">Bookmark in one click</h2>
+                  <p class="click text-center text-lg-start">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                  </div>
+                  <div class="container d-flex justify-content-center justify-content-lg-start">
                   <button type="button" class="btn btn-primary shadow d-flex justify-content-center">More info</button>
+                  </div>
                 </div>  
               </div>
             </div>
@@ -121,7 +163,7 @@
                     <div class="container">
                     <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
                     </div>
-                    <button type="button" class="btn btn-primary shadow">More info</button>
+                    <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
                   </div>
                 </div>
               </div>
@@ -134,20 +176,20 @@
                     <div class="container">
                       <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
                       </div>
-                      <button type="button" class="btn btn-primary shadow">More info</button>
+                      <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
                   </div>
                 </div>
               </div>
               <div class="col d-flex justify-content-center justify-content-md-start">
                 <div class="card h-100">
                   <div class="card-body">
-                    <img src="Imagenes/logo-opera.svg" class="card-img-top pb-4" alt="...">
+                    <img src="Imagenes/logo-opera.svg" class="card-img-top pb-3" alt="...">
                     <h5 class="card-title">Add to Opera</h5>
                     <p class="card-text">Minimum version 46</p>
                     <div class="container">
                       <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
                       </div>
-                      <button type="button" class="btn btn-primary shadow">More info</button>
+                      <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
                   </div>
                 </div>
               </div>
