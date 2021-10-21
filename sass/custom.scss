@@ -1,5 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+$primary:      #5265E1; 
+$secondary:     #FA5959;
+
+
 .btn-success:hover {
     color: #fff;
     background-color: #FA5959;
@@ -38,10 +42,10 @@ h3 {
     text-align: center;
 }
 
-#textfeatures {
+.features {
     text-align: center;
-
 }
+
 
 #componenttabs {
     display: flex;
@@ -60,3 +64,27 @@ h3 {
 #oneclick {
     padding-top: 40px;
 }
+
+#targetes {
+    height: 50px;
+}
+
+.card-img-top {
+    width: 60px;
+
+}
+
+.card {
+    width: 200px;
+}
+
+#columcards {
+  
+}
+
+.card-body {
+    text-align: center;
+    border: solid .5px grey;
+    height: 250px;
+}
+

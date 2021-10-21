@@ -11994,7 +11994,7 @@ h3, .h3 {
   text-align: center;
 }
 
-#textfeatures {
+.features {
   text-align: center;
 }
 
@@ -12018,5 +12018,23 @@ h3, .h3 {
 
 #oneclick {
   padding-top: 40px;
+}
+
+#targetes {
+  height: 50px;
+}
+
+.card-img-top {
+  width: 60px;
+}
+
+.card {
+  width: 200px;
+}
+
+.card-body {
+  text-align: center;
+  border: solid .5px grey;
+  height: 250px;
 }
 /*# sourceMappingURL=custom.css.map */
