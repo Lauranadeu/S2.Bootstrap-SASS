@@ -8,16 +8,44 @@ body {
 }
 
 .btn-success:hover {
+    color: $secondary;
+    background-color: #ffffff;
+    border-color: $secondary;
+    font-weight: bold;
+    
+}
+
+
+.btn-success {
     color: #fff;
-    background-color: #FA5959;
-    border-color: #FA5959;
+    background-color: $secondary;
+    border-color: $secondary;
+    
+}
+
+.btn-light:hover {
+    border: 2px solid rgb(58, 57, 57);
+    font-weight: bold;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+  }
+  
+.btn-primary:hover {
+    color: $primary;
+    background-color: white;
+    border-color: #5265E1;
+    font-weight: bold;
   }
 
-  .btn-success {
-    color: #fff;
-    background-color: #FA5959;
-    border-color: #FA5959;
-  }
+#linknav:hover {
+    color: $secondary;
+    font-weight: bold;
+}
 
   section {
     padding-top: 70px;
@@ -30,24 +58,6 @@ body {
    
 
 
-#imatgelogo {
-  
-}
-
- 
-
-  .btn-primary {
-    color: #fff;
-    background-color: #5265E1;
-    border-color: #5265E1;
-  }
-  
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #5265E1;
-    border-color: #5265E1;
-  }
-
 h3 {
     text-align: center;
 }
@@ -57,15 +67,25 @@ h3 {
 }
 
 
-#componenttabs {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-
-    .nav-item {
+.nav-item {
         padding: 20px;
     }
+
+#navlink2 {
+    color: black;
+    border-bottom: .5px solid rgb(170, 169, 169);
+    padding-bottom: 15px;
 }
+
+
+
+#navlink2:hover {
+    color: $secondary;
+    font-weight: bold;
+  
+}
+
+
 
 #contenidor2 {
     padding-top: 40px;
@@ -116,6 +136,47 @@ h3 {
     align-content: center;
 }
 
-.footer1 {
-    background-color: red;
+footer {
+    background-color:$primary;
+    color: white;
+}
+
+.btn-danger {
+    color: white;
+    background-color: $secondary;
+    border: $secondary;
+}
+
+.btn-danger:hover {
+    background-color: white;
+    color: $secondary;
+    border: 1px solid $secondary;
+}
+
+
+.socialmedia {
+    display: flex;
+    align-content: flex-end;
+}
+
+.socialmedia img {
+    background-image: $secondary;
+}
+
+.btn-info {
+    background-color: none;
+    border-color: none;
+}
+
+#navitem3 {
+    color: white;
+  
+}
+
+#navitem3:hover {
+    color: $secondary;
+}
+
+#xxss:hover {
+    fill: currentColor !important;
 }

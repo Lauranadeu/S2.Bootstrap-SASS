@@ -11962,15 +11962,39 @@ body {
 }
 
 .btn-success:hover {
-  color: #fff;
-  background-color: #FA5959;
+  color: #FA5959;
+  background-color: #ffffff;
   border-color: #FA5959;
+  font-weight: bold;
 }
 
 .btn-success {
   color: #fff;
   background-color: #FA5959;
   border-color: #FA5959;
+}
+
+.btn-light:hover {
+  border: 2px solid #3a3939;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5265E1;
+  border-color: #5265E1;
+}
+
+.btn-primary:hover {
+  color: #5265E1;
+  background-color: white;
+  border-color: #5265E1;
+  font-weight: bold;
+}
+
+#linknav:hover {
+  color: #FA5959;
+  font-weight: bold;
 }
 
 section {
@@ -11982,18 +12006,6 @@ section h1, section .h1 {
   padding-bottom: 10px;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #5265E1;
-  border-color: #5265E1;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #5265E1;
-  border-color: #5265E1;
-}
-
 h3, .h3 {
   text-align: center;
 }
@@ -12002,18 +12014,19 @@ h3, .h3 {
   text-align: center;
 }
 
-#componenttabs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 10px;
+.nav-item {
+  padding: 20px;
 }
 
-#componenttabs .nav-item {
-  padding: 20px;
+#navlink2 {
+  color: black;
+  border-bottom: 0.5px solid #aaa9a9;
+  padding-bottom: 15px;
+}
+
+#navlink2:hover {
+  color: #FA5959;
+  font-weight: bold;
 }
 
 #contenidor2 {
@@ -12057,7 +12070,49 @@ h3, .h3 {
       align-content: center;
 }
 
-.footer1 {
-  background-color: red;
+footer {
+  background-color: #5265E1;
+  color: white;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #FA5959;
+  border: #FA5959;
+}
+
+.btn-danger:hover {
+  background-color: white;
+  color: #FA5959;
+  border: 1px solid #FA5959;
+}
+
+.socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.socialmedia img {
+  background-image: #FA5959;
+}
+
+.btn-info {
+  background-color: none;
+  border-color: none;
+}
+
+#navitem3 {
+  color: white;
+}
+
+#navitem3:hover {
+  color: #FA5959;
+}
+
+#xxss:hover {
+  fill: currentColor !important;
 }
 /*# sourceMappingURL=custom.css.map */
