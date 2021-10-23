@@ -7,11 +7,8 @@
     <title>S2 Bootsrap i Sass</title>
 
     <link rel="stylesheet" href="sass/custom.css">
-
-    
-
-
 </head>
+
 <body>
 
   
@@ -19,7 +16,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container d-flex justify-content-start">
       <a class="navbar-brand" href="#">
-        <img src="Imagenes/logo-bookmark.svg" class="imatgelogo d-flex justify-content-start " alt="">
+        <img src="Imagenes/logo-bookmark.svg" class="imatgelogo d-flex justify-content-start ms-5 " alt="">
       </a>
     </div>
     <div class="container-fluid d-flex justify-content-end">
@@ -27,7 +24,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">FEATURES</a>
           </li>
@@ -139,7 +136,6 @@
           </section>
 
           <section class="section3">
-            
             <div class="container d-flex justify-content-center">
               <div class="row">
                 <div class="col-12 pt-5">
@@ -147,58 +143,136 @@
                 </div>  
                 <div class="col-12 col-md-2 col-lg-3"></div>
                 <div class="col-12 col-md-8 col-lg-6">
-                  <p class="features">We've more browsers in the pipeline. Please do let us know if you've got a favourrite you'd like us to prioritze.</p>
+                  <p class="features">We've more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritze.</p>
+                </div>
+              <div class="container d-flex justify-content-center gap-3 mt-3 flex-column align-items-center flex-md-row" id="cards">
+                <div class="card d-flex align-items-center pt-4 shadow" style="width: 13rem; height: 16rem;">
+                  <img src="Imagenes/logo-chrome.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Chrome</h5>
+                    <p class="card-text">Minimum version 62</p>
+                    <div class="container-fluid d-flex pb-3">
+                      <img src="Imagenes/bg-dots.svg" class="card-img-top-dots" alt="...">
+                    </div>
+                    <a href="#" class="btn btn-primary d-flex justify-content-center" style="font-size: small;">Add & Install Extension</a>
+                  </div>
+                </div>
+                <div class="card d-flex align-items-center pt-4 shadow mt-md-3" style="width: 13rem; height: 16rem;">
+                  <img src="Imagenes/logo-firefox.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Firefox</h5>
+                    <p class="card-text">Minimun version 55</p>
+                    <div class="container-fluid d-flex pb-3">
+                      <img src="Imagenes/bg-dots.svg" class="card-img-top-dots" alt="...">
+                    </div>
+                    <a href="#" class="btn btn-primary d-flex justify-content-center" style="font-size: small;">Add & Install Extension</a>
+                  </div>
+                </div>
+                <div class="card d-flex align-items-center pt-3 shadow mt-md-5" style="width: 13rem; height: 16rem;">
+                  <img src="Imagenes/logo-opera.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Opera</h5>
+                    <p class="card-text">Minimum version 46</p>
+                    <div class="container-fluid d-flex pb-3">
+                      <img src="Imagenes/bg-dots.svg" class="card-img-top-dots" alt="...">
+                    </div>
+                    <a href="#" class="btn btn-primary d-flex justify-content-center" style="font-size: small;">Add & Install Extension</a>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+
+          <section>
+            <div class="container d-flex justify-content-center mb-3">
+              <div class="row">
+                <div class="col-12 pt-5">
+                  <h3>Frequently Asked Questions</h3>
+                </div>  
+                <div class="col-12 col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <p class="features">Here are some of our FAQs. If you bahe any other questions you'd like answered please feel free to email us.</p>
                 </div>
                 <div class="col-12 col-md-2 col-lg-3"></div>
               </div>  
             </div> 
-            
-            <div class="row row-cols-1 row-cols-md-3 g-1 pt-4" id="targetes">
-              <div class="col d-flex justify-content-center justify-content-md-end">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <img src="Imagenes/logo-chrome.svg" class="card-img-top pb-4" alt="...">
-                    <h5 class="card-title">Add to Chrome</h5>
-                    <p class="card-text">Minimum version 62</p>
-                    <div class="container">
-                    <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
-                    </div>
-                    <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
-                  </div>
+      
+
+
+
+            <div class="accordion accordion-flush d-flex flex-column align-items-center"  id="accordionFlushExample">
+              <div class="accordion-item" style="width: 500px;">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is Bookmark?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                 </div>
               </div>
-              <div class="col d-flex justify-content-center">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <img src="Imagenes/logo-firefox.svg" class="card-img-top pb-4" alt="...">
-                    <h5 class="card-title">Add to Firefox</h5>
-                    <p class="card-text">Minimum version 55</p>
-                    <div class="container">
-                      <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
-                      </div>
-                      <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
-                  </div>
+              <div class="accordion-item" style="width: 500px;>
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How can I request a new browser?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                 </div>
               </div>
-              <div class="col d-flex justify-content-center justify-content-md-start">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <img src="Imagenes/logo-opera.svg" class="card-img-top pb-3" alt="...">
-                    <h5 class="card-title">Add to Opera</h5>
-                    <p class="card-text">Minimum version 46</p>
-                    <div class="container">
-                      <img src="Imagenes/bg-dots.svg" class="card-img-top" alt="...">
-                      </div>
-                      <button type="button" class="btn btn-primary shadow" id="install">Add & Install Extension</button>
-                  </div>
+              <div class="accordion-item" style="width: 500px;>
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Is there a mobile app?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                 </div>
               </div>
+              <div class="accordion-item" style="width: 500px;>
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What about other Chromium browsers?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="container d-flex justify-content-center justify-content-lg-start">
+                <button type="button" class="btn btn-primary shadow d-flex justify-content-center mt-4">More info</button>
+                </div>
             </div>
-
-  
           </section>
-
-
     </div>
+
+    <footer>
+      <div class="container-fluid mt-5" id="footer1">
+        <p class="textfooter text-center">35.000* ALREADY JOINED</p>
+        <h3>Stay up-to-date with what <br> we're doing</h3>
+        <div class="container">
+          <form class="form-floating">
+            <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+            <label for="floatingInputInvalid">Invalid input</label>
+          </form>
+          <div class="container d-flex justify-content-center justify-content-lg-start">
+            <button type="button" class="btn btn-primary shadow d-flex justify-content-center mt-4">More info</button>
+            </div>
+        </div>
+
+
+
+        </div>
+
+      </div>
+      
+      <div class="container-fluid" id="footer2">
+
+      </div>
+
+
+    </footer>
 </body>
 </html>

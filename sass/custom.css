@@ -11957,6 +11957,10 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  height: 100vh;
+}
+
 .btn-success:hover {
   color: #fff;
   background-color: #FA5959;
@@ -12020,26 +12024,40 @@ h3, .h3 {
   padding-top: 40px;
 }
 
-#targetes {
-  height: 50px;
-}
-
 .card-img-top {
   width: 60px;
 }
 
-.card {
-  width: 200px;
-}
-
 .card-body {
   text-align: center;
-  border: solid .5px grey;
   height: 250px;
+}
+
+.card-img-top-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 #install {
   font-size: 11px;
   width: 100%;
+  background-color: #5265E1;
+}
+
+.accordion {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer1 {
+  background-color: red;
 }
 /*# sourceMappingURL=custom.css.map */

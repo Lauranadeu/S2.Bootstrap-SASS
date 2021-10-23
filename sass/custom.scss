@@ -3,6 +3,9 @@
 $primary:      #5265E1; 
 $secondary:     #FA5959;
 
+body {
+    height: 100vh;
+}
 
 .btn-success:hover {
     color: #fff;
@@ -72,17 +75,15 @@ h3 {
     padding-top: 40px;
 }
 
-#targetes {
-    height: 50px;
-}
 
 .card-img-top {
     width: 60px;
 
 }
 
-.card {
-    width: 200px;
+.card :nth-child(1) {
+    
+   
 }
 
 #columcards {
@@ -91,11 +92,30 @@ h3 {
 
 .card-body {
     text-align: center;
-    border: solid .5px grey;
     height: 250px;
 }
+
+.card-img-top-dots {
+   display: flex;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+ 
+}
+
 
 #install {
     font-size: 11px;
     width: 100%;
+    background-color: $primary;
+}
+
+.accordion {
+    width: 100vw;
+    display: flex;
+    align-content: center;
+}
+
+.footer1 {
+    background-color: red;
 }
