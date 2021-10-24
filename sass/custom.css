@@ -12093,6 +12093,9 @@ footer {
   display: flex;
   -ms-flex-line-pack: end;
       align-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .socialmedia img {

@@ -157,6 +157,7 @@ footer {
 .socialmedia {
     display: flex;
     align-content: flex-end;
+    justify-content: end;
 }
 
 .socialmedia img {
@@ -180,3 +181,6 @@ footer {
 #xxss:hover {
     fill: currentColor !important;
 }
+
+
+    
