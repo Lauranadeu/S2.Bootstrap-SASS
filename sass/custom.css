@@ -12115,7 +12115,15 @@ footer {
   color: #FA5959;
 }
 
-#xxss:hover {
-  fill: currentColor !important;
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0rem;
+  font-size: 0.875em;
+  color: white;
+  background-color: #FA5959;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
 }
 /*# sourceMappingURL=custom.css.map */

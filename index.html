@@ -256,45 +256,74 @@
       <div class="container-fluid mt-5 pt-5 pb-5" id="footer1">
         <p class="textfooter text-center">35.000* ALREADY JOINED</p>
         <h3>Stay up-to-date with what <br> we're doing</h3>
-        <div class="container-fluid d-flex justify-content-center">
-          <form class="form mt-4 d-flex gap-3">
-            <input type="email" class="form-control" id="floatingInputValue" placeholder="Enter your mail adress">
-            <button type="button" class="btn btn-danger shadow d-flex justify-content-center" style="width: 150px;">Contact us</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="container-fluid d-flex justify-content-center justify-content-md-start" style="background-color: rgb(8, 25, 75);">
-          <nav class="navbar d-flex">
-            <div class="container-fluid ps-5">    
-              <ul class="nav d-flex flex-column flex-md-row align-content-center justify-content-center text-center">
-                <li class="nav-itemimg d-flex align-items-center">
-                  <img src="Imagenes/logo-bookmark.svg" alt="">
-                </li>
-                <li class="nav-item2">
-                  <a class="nav-link" id="navitem3" href="#">FEATURES</a>
-                </li>
-                <li class="nav-item2">
-                  <a class="nav-link" id="navitem3" href="#">PRICING</a>
-                </li>
-                <li class="nav-item2">
-                  <a class="nav-link" id="navitem3" href="#">CONTACT</a>
-                </li>
-              </ul>
-              <div class="socialmedia d-flex gap-3">
-                <a href="#"> <img src="imagenes/icon-facebook.svg" id="xxss" alt=""></a>
-                <a href="#"> <img src="imagenes/icon-twitter.svg" id="xxss" alt=""></a>
+        
+        <form class="needs-validation d-flex justify-content-center mt-4" novalidate>
+          <div class="form-row">
+            <div class="col-12 d-flex d-flex justify-content-center gap-2">
+              <label for="validationCustomUsername"></label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Enter your email" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Whoops. make sure it's an email
+                </div>
               </div>
+              <button class="btn btn-danger" type="submit" style="width: 180px;">Contact us</button>
             </div>
-          </nav>
+          </div>
+        
+        </form>
+        <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
       </div>
-
-
-    
-      
-      
-
-
     </footer>
+
+    <aside>
+      <div class="container-fluid d-flex justify-content-center justify-content-md-start" style="background-color: rgb(8, 25, 75);">
+        <nav class="navbar d-flex">
+          <div class="container-fluid ps-5">    
+            <ul class="nav d-flex flex-column flex-md-row align-content-center justify-content-center text-center">
+              <li class="nav-itemimg d-flex align-items-center">
+                <img src="Imagenes/logo-bookmark.svg" alt="">
+              </li>
+              <li class="nav-item2">
+                <a class="nav-link" id="navitem3" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item2">
+                <a class="nav-link" id="navitem3" href="#">PRICING</a>
+              </li>
+              <li class="nav-item2">
+                <a class="nav-link" id="navitem3" href="#">CONTACT</a>
+              </li>
+            </ul>
+            <div class="socialmedia d-flex gap-3">
+              <a href="#"> <img src="imagenes/icon-facebook.svg" id="xxss" alt=""></a>
+              <a href="#"> <img src="imagenes/icon-twitter.svg" id="xxss" alt=""></a>
+            </div>
+          </div>
+        </nav>
+    </div>
+  </aside>
+
+
+
+
 </body>
 </html>

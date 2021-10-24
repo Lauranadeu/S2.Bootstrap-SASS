@@ -115,6 +115,10 @@ h3 {
     height: 250px;
 }
 
+.card :nth-child(1) {
+    
+}
+
 .card-img-top-dots {
    display: flex;
    width: 100%;
@@ -178,9 +182,16 @@ footer {
     color: $secondary;
 }
 
-#xxss:hover {
-    fill: currentColor !important;
-}
-
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0rem;
+    font-size: 0.875em;
+    color: white;
+    background-color: $secondary;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+  }
 
     
