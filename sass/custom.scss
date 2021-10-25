@@ -1,7 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-$primary:      #5265E1; 
-$secondary:     #FA5959;
+$primary: #5265E1;
+$secondary: #FA5959;
 
 body {
     height: 100vh;
@@ -12,7 +12,6 @@ body {
     background-color: #ffffff;
     border-color: $secondary;
     font-weight: bold;
-    
 }
 
 
@@ -20,7 +19,6 @@ body {
     color: #fff;
     background-color: $secondary;
     border-color: $secondary;
-    
 }
 
 .btn-light:hover {
@@ -33,29 +31,28 @@ body {
     color: #fff;
     background-color: $primary;
     border-color: $primary;
-  }
-  
+}
+
 .btn-primary:hover {
     color: $primary;
     background-color: white;
     border-color: #5265E1;
     font-weight: bold;
-  }
+}
 
 #linknav:hover {
     color: $secondary;
     font-weight: bold;
 }
 
-  section {
+section {
     padding-top: 70px;
 
     h1 {
         padding-top: 40px;
-        padding-bottom: 10px;      
+        padding-bottom: 10px;
     }
 }
-   
 
 
 h3 {
@@ -66,10 +63,55 @@ h3 {
     text-align: center;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #ffffff;
+    width: 100vw;
+    justify-content: center;
+}
+
+.nav-tabs li {
+    border-bottom: .5px solid grey;
+
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 0px;
+    background: none;
+    border-bottom: 2 px solid $secondary;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    color: black;
+    border: none;
+}
+
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    color: $secondary;
+
+}
+
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: black;
+    border-bottom: 2px solid $secondary;
+
+    @media (max-width: 540px) {
+        border-top: 0.5px solid grey;
+        width: 90vw;
+    }
+}
+
+.nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 
 .nav-item {
-        padding: 20px;
-    }
+    padding: 20px;
+}
 
 #navlink2 {
     color: black;
@@ -78,14 +120,10 @@ h3 {
 }
 
 
-
 #navlink2:hover {
     color: $secondary;
     font-weight: bold;
-  
 }
-
-
 
 #contenidor2 {
     padding-top: 40px;
@@ -95,19 +133,9 @@ h3 {
     padding-top: 40px;
 }
 
-
 .card-img-top {
     width: 60px;
 
-}
-
-.card :nth-child(1) {
-    
-   
-}
-
-#columcards {
-  
 }
 
 .card-body {
@@ -117,32 +145,29 @@ h3 {
 
 .card:nth-child(1) {
     margin-top: 0px;
-    
 }
 
 .card:nth-child(2) {
     margin-top: 40px;
-    @media (max-width: 768px) {   
-        margin-top: 0px;
-        }
-    
-}
 
+    @media (max-width: 768px) {
+        margin-top: 0px;
+    }
+}
 
 .card:nth-child(3) {
     margin-top: 80px;
-    @media (max-width: 768px) {   
+
+    @media (max-width: 768px) {
         margin-top: 0px;
-        }
-    
+    }
 }
 
 .card-img-top-dots {
-   display: flex;
-   width: 100%;
-   margin: 0px;
-   padding: 0px;
- 
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -159,7 +184,7 @@ h3 {
 }
 
 footer {
-    background-color:$primary;
+    background-color: $primary;
     color: white;
 }
 
@@ -176,15 +201,6 @@ footer {
 }
 
 
-.socialmedia {
-    display: flex;
-    align-content: flex-end;
-    justify-content: end;
-}
-
-.socialmedia img {
-    background-image: $secondary;
-}
 
 .btn-info {
     background-color: none;
@@ -193,7 +209,6 @@ footer {
 
 #navitem3 {
     color: white;
-  
 }
 
 #navitem3:hover {
@@ -210,10 +225,35 @@ footer {
     padding-left: 5px;
     padding-bottom: 5px;
     font-style: italic;
-  }
-
-.svgsocialmedia:hover {
-    fill: red;
 }
 
-    
+#peu {
+    width: 100vw;
+}
+
+
+.socialmedia {
+    display: flex;
+    align-content: flex-end;
+    justify-content: end;
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-self: flex-end;
+    }
+}
+
+#accordion {
+    border-top: 0.3px solid rgb(223, 220, 220);
+
+    @media (max-width: 750px) {
+        border-top: grey;
+    }
+}
+
+#xxss:hover {
+    fill: red;
+
+}

@@ -12014,6 +12014,52 @@ h3, .h3 {
   text-align: center;
 }
 
+.nav-tabs {
+  border-bottom: 1px solid #ffffff;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-tabs li {
+  border-bottom: .5px solid grey;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: 0px;
+  background: none;
+  border-bottom: 2 px solid #FA5959;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  color: black;
+  border: none;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  color: #FA5959;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: black;
+  border-bottom: 2px solid #FA5959;
+}
+
+@media (max-width: 540px) {
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    border-top: 0.5px solid grey;
+    width: 90vw;
+  }
+}
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 .nav-item {
   padding: 20px;
 }
@@ -12111,21 +12157,6 @@ footer {
   border: 1px solid #FA5959;
 }
 
-.socialmedia {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.socialmedia img {
-  background-image: #FA5959;
-}
-
 .btn-info {
   background-color: none;
   border-color: none;
@@ -12151,7 +12182,49 @@ footer {
   font-style: italic;
 }
 
-.svgsocialmedia:hover {
+#peu {
+  width: 100vw;
+}
+
+.socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media (min-width: 768px) {
+  .socialmedia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    justify-self: flex-end;
+  }
+}
+
+#accordion {
+  border-top: 0.3px solid #dfdcdc;
+}
+
+@media (max-width: 750px) {
+  #accordion {
+    border-top: grey;
+  }
+}
+
+#xxss:hover {
   fill: red;
 }
 /*# sourceMappingURL=custom.css.map */
