@@ -12046,6 +12046,30 @@ h3, .h3 {
   height: 250px;
 }
 
+.card:nth-child(1) {
+  margin-top: 0px;
+}
+
+.card:nth-child(2) {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .card:nth-child(2) {
+    margin-top: 0px;
+  }
+}
+
+.card:nth-child(3) {
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .card:nth-child(3) {
+    margin-top: 0px;
+  }
+}
+
 .card-img-top-dots {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12125,5 +12149,9 @@ footer {
   padding-left: 5px;
   padding-bottom: 5px;
   font-style: italic;
+}
+
+svg:hover {
+  fill: red;
 }
 /*# sourceMappingURL=custom.css.map */
