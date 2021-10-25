@@ -12151,7 +12151,7 @@ footer {
   font-style: italic;
 }
 
-svg:hover {
+.svgsocialmedia:hover {
   fill: red;
 }
 /*# sourceMappingURL=custom.css.map */
