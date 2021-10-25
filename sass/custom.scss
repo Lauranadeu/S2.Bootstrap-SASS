@@ -115,7 +115,25 @@ h3 {
     height: 250px;
 }
 
-.card :nth-child(1) {
+.card:nth-child(1) {
+    margin-top: 0px;
+    
+}
+
+.card:nth-child(2) {
+    margin-top: 40px;
+    @media (max-width: 768px) {   
+        margin-top: 0px;
+        }
+    
+}
+
+
+.card:nth-child(3) {
+    margin-top: 80px;
+    @media (max-width: 768px) {   
+        margin-top: 0px;
+        }
     
 }
 
@@ -193,5 +211,9 @@ footer {
     padding-bottom: 5px;
     font-style: italic;
   }
+
+svg:hover {
+    fill: red;
+}
 
     
