@@ -1,7 +1,9 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 $primary: #5265E1;
 $secondary: #FA5959;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
     height: 100vh;
@@ -97,9 +99,10 @@ h3 {
     color: black;
     border-bottom: 2px solid $secondary;
 
-    @media (max-width: 540px) {
+    @media (max-width: 575px) {
         border-top: 0.5px solid grey;
         width: 90vw;
+        
     }
 }
 
@@ -111,6 +114,11 @@ h3 {
 
 .nav-item {
     padding: 20px;
+}
+
+.nav-item3 {
+    display: flex;
+    justify-content: center;
 }
 
 #navlink2 {
@@ -231,7 +239,7 @@ footer {
     width: 100vw;
 }
 
-
+/*
 .socialmedia {
     display: flex;
     align-content: flex-end;
@@ -244,7 +252,7 @@ footer {
         justify-self: flex-end;
     }
 }
-
+*/
 #accordion {
     border-top: 0.3px solid rgb(223, 220, 220);
 
@@ -253,7 +261,8 @@ footer {
     }
 }
 
-#xxss:hover {
-    fill: red;
+.xxss {
+    filter: red;
 
 }
+
