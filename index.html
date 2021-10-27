@@ -175,7 +175,30 @@
           </div>
 
         
-          
+<script>
+
+var triggerTabList = [].slice.call(document.querySelectorAll('#myTab button'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  var triggerFirstTabEl = document.querySelector('#myTab li:second-child button')
+bootstrap.Tab.getInstance(triggerFirstTabEl).show(profile-tab) // Select first tab
+
+var triggerEl = document.querySelector('#myTab button[profile-tab="#Speddy Searching"]')
+bootstrap.Tab.getInstance(triggerEl).show(profile-tab) // Select tab by name
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
+
+var triggerEl = document.querySelector('#myTab button[profile-tab="#Speddy Searching"]')
+bootstrap.Tab.getInstance(triggerEl).show(profile-tab) // Select tab by name
+
+var triggerFirstTabEl = document.querySelector('#myTab li:second-child button')
+bootstrap.Tab.getInstance(triggerFirstTabEl).show(profile-tab) // Select first tab
+</script>
           
 
 
