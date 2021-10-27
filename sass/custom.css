@@ -12046,14 +12046,6 @@ h3, .h3 {
   border-bottom: 2px solid #FA5959;
 }
 
-@media (max-width: 575px) {
-  .nav-tabs .nav-link.active,
-  .nav-tabs .nav-item.show .nav-link {
-    border-top: 0.5px solid grey;
-    width: 90vw;
-  }
-}
-
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-left-radius: 0;

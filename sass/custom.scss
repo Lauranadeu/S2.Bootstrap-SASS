@@ -99,12 +99,10 @@ h3 {
     color: black;
     border-bottom: 2px solid $secondary;
 
-    @media (max-width: 575px) {
-        border-top: 0.5px solid grey;
-        width: 90vw;
-        
-    }
+  
 }
+
+
 
 .nav-tabs .dropdown-menu {
     margin-top: -1px;
