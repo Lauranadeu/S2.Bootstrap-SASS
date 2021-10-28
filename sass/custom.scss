@@ -134,6 +134,12 @@ h3 {
     padding-top: 40px;
 }
 
+.click2 {
+    @media (min-width: 1000px) {
+        width: 60%;
+    }
+}
+
 .card-img-top {
     width: 60px;
 

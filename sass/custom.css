@@ -12084,6 +12084,12 @@ h3, .h3 {
   padding-top: 40px;
 }
 
+@media (min-width: 1000px) {
+  .click2 {
+    width: 60%;
+  }
+}
+
 .card-img-top {
   width: 60px;
 }
