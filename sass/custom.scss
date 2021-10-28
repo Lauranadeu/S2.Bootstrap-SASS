@@ -47,6 +47,9 @@ body {
     font-weight: bold;
 }
 
+
+
+
 section {
     padding-top: 70px;
 
@@ -99,7 +102,6 @@ h3 {
     color: black;
     border-bottom: 2px solid $secondary;
 
-  
 }
 
 
@@ -198,6 +200,7 @@ footer {
     color: white;
     background-color: $secondary;
     border: $secondary;
+    height: 38px;
 }
 
 .btn-danger:hover {
@@ -237,20 +240,26 @@ footer {
     width: 100vw;
 }
 
-/*
-.socialmedia {
-    display: flex;
-    align-content: flex-end;
-    justify-content: end;
-    @media (min-width: 768px) {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
-        align-items: flex-end;
-        justify-self: flex-end;
-    }
-}
-*/
+.accordion-button:hover {
+    z-index: 2;
+    color: red;
+  }
+  
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #a9b2f0;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(82, 101, 225, 0.25);
+            box-shadow: 0 0 0 0.25rem rgba(82, 101, 225, 0.25);
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #121630;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+
 #accordion {
     border-top: 0.3px solid rgb(223, 220, 220);
 
@@ -258,6 +267,16 @@ footer {
         border-top: grey;
     }
 }
+
+.btn-check:focus + .btn-danger, .btn-danger:focus {
+    color: #fff;
+    background-color: $secondary;
+    border-color: $secondary;
+    -webkit-box-shadow: 0 0 0 0.25rem $secondary;
+            box-shadow: 0 0 0 0.25rem $secondary;
+  }
+
+
 
 .xxss {
     filter: red;

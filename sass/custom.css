@@ -12150,6 +12150,7 @@ footer {
   color: white;
   background-color: #FA5959;
   border: #FA5959;
+  height: 38px;
 }
 
 .btn-danger:hover {
@@ -12187,20 +12188,26 @@ footer {
   width: 100vw;
 }
 
-/*
-.socialmedia {
-    display: flex;
-    align-content: flex-end;
-    justify-content: end;
-    @media (min-width: 768px) {
-        display: flex;
-        justify-content: flex-end;
-        align-content: flex-end;
-        align-items: flex-end;
-        justify-self: flex-end;
-    }
+.accordion-button:hover {
+  z-index: 2;
+  color: red;
 }
-*/
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #a9b2f0;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(82, 101, 225, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(82, 101, 225, 0.25);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #121630;
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
 #accordion {
   border-top: 0.3px solid #dfdcdc;
 }
@@ -12209,6 +12216,14 @@ footer {
   #accordion {
     border-top: grey;
   }
+}
+
+.btn-check:focus + .btn-danger, .btn-danger:focus {
+  color: #fff;
+  background-color: #FA5959;
+  border-color: #FA5959;
+  -webkit-box-shadow: 0 0 0 0.25rem #FA5959;
+  box-shadow: 0 0 0 0.25rem #FA5959;
 }
 
 .xxss {
