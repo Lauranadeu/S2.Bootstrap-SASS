@@ -12231,4 +12231,10 @@ footer {
   -webkit-box-shadow: 0 0 0 0.25rem #FA5959;
   box-shadow: 0 0 0 0.25rem #FA5959;
 }
+
+.xxss:hover,
+.xxss:focus {
+  -webkit-filter: invert(85%) sepia(51%) saturate(2878%) hue-rotate(330deg) brightness(104%) contrast(97%);
+          filter: invert(85%) sepia(51%) saturate(2878%) hue-rotate(330deg) brightness(104%) contrast(97%);
+}
 /*# sourceMappingURL=custom.css.map */
