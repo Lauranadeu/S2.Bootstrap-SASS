@@ -12147,11 +12147,6 @@ h3, .h3 {
       align-content: center;
 }
 
-footer {
-  background-color: #5265E1;
-  color: white;
-}
-
 .btn-danger {
   color: white;
   background-color: #FA5959;
@@ -12190,10 +12185,6 @@ footer {
   font-style: italic;
 }
 
-#peu {
-  width: 100vw;
-}
-
 .accordion-button:hover {
   z-index: 2;
   color: #FA5959;
@@ -12230,6 +12221,15 @@ footer {
   border-color: #FA5959;
   -webkit-box-shadow: 0 0 0 0.25rem #FA5959;
   box-shadow: 0 0 0 0.25rem #FA5959;
+}
+
+footer {
+  background-color: #5265E1;
+  color: white;
+}
+
+#peu {
+  width: 100vw;
 }
 
 .xxss:hover,
